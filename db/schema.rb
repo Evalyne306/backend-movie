@@ -17,7 +17,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_03_05_140121) do
     t.datetime "due"
     t.datetime "createdAt", null: false
     t.integer "status", default: 0, null: false
-    t.integer "year",
+    t.integer "year"
     t.text "poster"
   end
 
